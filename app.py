@@ -20,7 +20,7 @@ minutes=st.number_input(label="Set Minute Interval",step=1,format="%d",min_value
 
 seconds=st.number_input(label="Set Second Interval",step=1,format="%d",min_value=0,help="Specify the number of seconds between each hydration reminder.")
 
-btn=st.button("Set Remainder")
+btn=st.button("Set Reminder")
 
 convert=1
 
