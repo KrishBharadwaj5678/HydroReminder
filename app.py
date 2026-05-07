@@ -3,7 +3,7 @@ import time
 from plyer import notification
 
 st.set_page_config(
-    page_title="HydroReminder",
+    page_title="Hydro Reminder",
     page_icon="water.ico",
     menu_items={
         "About":"""HydroReminder is designed to simplify your hydration journey. We understand the challenges of staying hydrated throughout the day, which is why we created a user-friendly app that sends gentle reminders to drink water."""
@@ -43,6 +43,6 @@ if btn:
     if convert!=None:
         for i in range(0,interval):
             time.sleep(convert)
-            notification.notify(title='Hydration Reminder', message="It's water o'clock! Take a break and sip your way to better health.", app_icon='water.ico', timeout=0)
+            notification.notify(title='Hydration Reminder', message="Refresh your body, recharge your mind. Take a quick water break.", app_icon='water.ico', timeout=0)
     else:
          st.error("Please fill out the above fields!")
