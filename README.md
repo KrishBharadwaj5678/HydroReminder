@@ -3,6 +3,8 @@
 **HydroReminder** is a simple hydration reminder app designed to help you stay hydrated throughout the day.
 It sends gentle desktop notifications reminding you to drink water at regular intervals.
 
+![HydroReminderDemo](https://github.com/KrishBharadwaj5678/HydroReminder/raw/main/HydroReminderDemo.png)
+
 ## ✨ Features
 
 | Feature                  | Description                        |
